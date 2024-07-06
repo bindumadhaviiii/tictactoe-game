@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(117, 190, 205);
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin; 
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(43, 64, 63);
+    font-size: 8vmin;
+    color: red;
+    background-color: rgb(210, 234, 243);
+}
+
+#reset-btn, #new-btn, #pvp-btn, #pvc-btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: rgb(43, 44, 44);
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin: 0.5rem;
+}
+
+#msg {
+    font-size: 5vmin;
+    color: yellow;
+}
+
+.msg-container {
+    height: 120vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.hide {
+    display: none;
+}
+
+.scoreboard {
+    margin: 1rem 0;
+}
+
+.scoreboard p {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    color: #fff;
+}
+
+
